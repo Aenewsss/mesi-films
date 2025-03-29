@@ -85,14 +85,14 @@ export default function MesiFilms() {
 
       {/* Video Teaser */}
       <section className="container mx-auto px-4 py-8">
-        <div className="bg-gray-300 aspect-video max-w-3xl mx-auto relative flex items-center justify-center">
+        <video playsInline src="teaser-mesi-films.mp4" autoPlay controls className="bg-gray-300 aspect-video max-w-3xl mx-auto relative flex items-center justify-center">
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center cursor-pointer hover:bg-white/30 transition-all">
               <Play className="w-8 h-8 text-white" fill="white" />
             </div>
           </div>
           <p className="text-gray-600 font-medium">VÍDEO TEASER</p>
-        </div>
+        </video>
       </section>
 
       {/* CTA Button */}
@@ -243,9 +243,7 @@ export default function MesiFilms() {
           {/* Testimonial 1 */}
           <div className="p-6">
             <div className="relative inline-block mb-4">
-              <div className="w-24 h-24 bg-gray-800 flex items-center justify-center">
-                <span className="text-sm text-white">FOTO</span>
-              </div>
+              <Image unoptimized className="object-cover w-24 h-24 bg-gray-800 flex items-center justify-center" src="/rodrigo-neri.png" alt="Rodrigo Neri" width={136} height={118} />
               <span className="absolute -left-2 -top-2 h-6 w-6 border-l-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -right-2 -top-2 h-6 w-6 border-r-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -left-2 -bottom-2 h-6 w-6 border-l-2 border-b-2 border-yellow-400"></span>
@@ -265,9 +263,7 @@ export default function MesiFilms() {
           {/* Testimonial 2 */}
           <div className="p-6">
             <div className="relative inline-block mb-4">
-              <div className="w-24 h-24 bg-gray-800 flex items-center justify-center">
-                <span className="text-sm text-white">FOTO</span>
-              </div>
+              <Image unoptimized className="object-cover w-24 h-24 bg-gray-800 flex items-center justify-center" src="/mateus-ticchetti.png" alt="Rodrigo Neri" width={136} height={118} />
               <span className="absolute -left-2 -top-2 h-6 w-6 border-l-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -right-2 -top-2 h-6 w-6 border-r-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -left-2 -bottom-2 h-6 w-6 border-l-2 border-b-2 border-yellow-400"></span>
@@ -288,9 +284,7 @@ export default function MesiFilms() {
           {/* Testimonial 3 */}
           <div className="p-6">
             <div className="relative inline-block mb-4">
-              <div className="w-24 h-24 bg-gray-800 flex items-center justify-center">
-                <span className="text-sm text-white">FOTO</span>
-              </div>
+              <Image unoptimized className="object-cover w-24 h-24 bg-gray-800 flex items-center justify-center" src="/duuck.png" alt="Rodrigo Neri" width={136} height={118} />
               <span className="absolute -left-2 -top-2 h-6 w-6 border-l-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -right-2 -top-2 h-6 w-6 border-r-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -left-2 -bottom-2 h-6 w-6 border-l-2 border-b-2 border-yellow-400"></span>
@@ -311,9 +305,7 @@ export default function MesiFilms() {
           {/* Testimonial 4 */}
           <div className="p-6">
             <div className="relative inline-block mb-4">
-              <div className="w-24 h-24 bg-gray-800 flex items-center justify-center">
-                <span className="text-sm text-white">FOTO</span>
-              </div>
+              <Image unoptimized className="object-cover w-24 h-24 bg-gray-800 flex items-center justify-center" src="/rafael-ferreira.png" alt="Rodrigo Neri" width={136} height={118} />
               <span className="absolute -left-2 -top-2 h-6 w-6 border-l-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -right-2 -top-2 h-6 w-6 border-r-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -left-2 -bottom-2 h-6 w-6 border-l-2 border-b-2 border-yellow-400"></span>
@@ -344,7 +336,7 @@ export default function MesiFilms() {
       <section className="bg-gray-100 py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-center text-2xl font-bold mb-16 text-black relative">
-            <span className="relative px-8 inline-block">
+            <span className="relative px-8 text-6xl inline-block font-medium">
               QUEM JÁ ATENDEMOS
               <span className="absolute -left-6 -top-2 h-6 w-6 border-l-2 border-t-2 border-yellow-400"></span>
               <span className="absolute -right-6 -top-2 h-6 w-6 border-r-2 border-t-2 border-yellow-400"></span>
@@ -353,21 +345,40 @@ export default function MesiFilms() {
             </span>
           </h2>
 
-          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-6">
-            <button className="bg-black text-white py-2 px-6 rounded-full">PETROBRAS</button>
-            <button className="bg-black text-white py-2 px-6 rounded-full">CASACOR</button>
-            <button className="bg-black text-white py-2 px-6 rounded-full">MSC CRUZEIROS</button>
+          <div className="flex flex-wrap justify-between max-w-4xl mx-auto mb-6">
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-Petrobras.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-BYD.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-CASACOR.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto mb-6">
-            <button className="bg-black text-white py-2 px-6 rounded-full">COBRA</button>
-            <button className="bg-black text-white py-2 px-6 rounded-full">SUPER TIME</button>
-            <button className="bg-black text-white py-2 px-6 rounded-full">BAND</button>
+          <div className="flex flex-wrap justify-between max-w-4xl mx-auto mb-6">
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-BIG-BOX.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-UNQ.png" alt="Rodrigo Neri" width={120} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-band.png" alt="Rodrigo Neri" width={100} height={40} />
+            </div>
           </div>
 
-          <div className="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
-            <button className="bg-black text-white py-2 px-6 rounded-full">FINT</button>
-            <button className="bg-black text-white py-2 px-6 rounded-full">UNO</button>
+          <div className="flex flex-wrap justify-between max-w-4xl mx-auto">
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-MSC-Cruzeiros.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-cobra.png" alt="Rodrigo Neri" width={120} height={40} />
+            </div>
+            <div className="w-[200px] flex justify-center">
+              <Image unoptimized className="object-contain" src="/logo-FINT.png" alt="Rodrigo Neri" width={200} height={40} />
+            </div>
           </div>
         </div>
       </section>

@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Sora;
+  src: url('../../public/Fonts/Sora-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora Medium;
+  src: url('../../public/Fonts/Sora-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora Light;
+  src: url('../../public/Fonts/Sora-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora Extra Light;
+  src: url('../../public/Fonts/Sora-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Sora Bold;
+  src: url('../../public/Fonts/Sora-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: MOS;
+  src: url('../../public/Fonts/MADE\ Outer\ Sans\ Regular\ PERSONAL\ USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MOS Bold;
+  src: url('../../public/Fonts/MADE\ Outer\ Sans\ Bold\ PERSONAL\ USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MOS Light;
+  src: url('../../public/Fonts/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf') format('opentype');
+}
+
+@font-face {
+  font-family: MOS Medium;
+  src: url('../../public/Fonts/MADE\ Outer\ Sans\ Medium\ PERSONAL\ USE.otf') format('opentype');
+}
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --container-2x1: 1400px;
+  --color-white: #EDEFEF;
+  --color-yellow-300: #FFEB3B;
+  --color-yellow-400: #EDE301;
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+  --font-sora: Sora, "sans-serif";
+  --font-sora-medium: Sora Medium, "sans-serif";
+  --font-sora-light: Sora Light, "sans-serif";
+  --font-sora-extra-light: Sora Extra Light, "sans-serif";
+  --font-sora-bold: Sora Bold, "sans-serif";
+  --font-mos: MOS, "sans-serif";
+  --font-mos-medium: MOS Medium, "sans-serif";
+  --font-mos-light: MOS Light, "sans-serif";
+  --font-mos-bold: MOS Bold, "sans-serif";
+}
+
+@base container {
+  max-width: 1400px;
+  padding-inline: 2rem;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+::-webkit-scrollbar {
+  background-color: black;
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-yellow-400;
+  border-radius: 8px;
+}

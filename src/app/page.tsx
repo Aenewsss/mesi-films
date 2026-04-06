@@ -161,48 +161,48 @@ export default function MesiFilms() {
           <div className="flex justify-center">
             {activeVideoSlide === 0 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1-alU7wLngVVMNC3mV43c_mppSvp3_JIN/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1-alU7wLngVVMNC3mV43c_mppSvp3_JIN"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
 
             {activeVideoSlide === 1 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/19dlZ9NQ-2KHvCK_3JoQmLN2mWGjyfxSX/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=19dlZ9NQ-2KHvCK_3JoQmLN2mWGjyfxSX"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
 
             {activeVideoSlide === 2 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1WJVy7Yyn_o218GehvUxSBsBWnakFjcAP/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1WJVy7Yyn_o218GehvUxSBsBWnakFjcAP"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
             {activeVideoSlide === 3 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1S4nldpF7bAFBiy8x3V2nILtmWyuRRykm/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1S4nldpF7bAFBiy8x3V2nILtmWyuRRykm"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
             {activeVideoSlide === 4 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1D_wn9xe-dwzMGXiTLjvDO-hO6aOwqtAg/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1D_wn9xe-dwzMGXiTLjvDO-hO6aOwqtAg"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
@@ -245,48 +245,48 @@ export default function MesiFilms() {
           <div className="flex justify-center">
             {activeFeedSlide === 0 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1P723czlQaBV-HAHJA_svCQNPZaOgbZf6/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1P723czlQaBV-HAHJA_svCQNPZaOgbZf6"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
 
             {activeFeedSlide === 1 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1r_1xVqZ5kimI8Z_2BpqTvz-_w1UBFQ9F/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1r_1xVqZ5kimI8Z_2BpqTvz-_w1UBFQ9F"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
 
             {activeFeedSlide === 2 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1muH_9A4i6RBf1JKN-CEzRCD8pp5klGRk/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1muH_9A4i6RBf1JKN-CEzRCD8pp5klGRk"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
             {activeFeedSlide === 3 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1cnTacy9s-NeiEtFhtX-q0KPzioZhqyJJ/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1cnTacy9s-NeiEtFhtX-q0KPzioZhqyJJ"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}
             {activeFeedSlide === 4 && (
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
-                <iframe
-                  src="https://drive.google.com/file/d/1uHdLWoULK1nk-3HfWQWU8tB-BT8MIz2q/preview"
-                  allow="autoplay"
-                  className="w-full h-full rounded-lg"
+                <video
+                  controls
+                  src="https://drive.google.com/uc?export=download&id=1uHdLWoULK1nk-3HfWQWU8tB-BT8MIz2q"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             )}

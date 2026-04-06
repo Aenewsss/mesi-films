@@ -163,7 +163,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1-alU7wLngVVMNC3mV43c_mppSvp3_JIN"
+                  src="/videos/performance/1.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -173,7 +173,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=19dlZ9NQ-2KHvCK_3JoQmLN2mWGjyfxSX"
+                  src="/videos/performance/2.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -183,7 +183,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1WJVy7Yyn_o218GehvUxSBsBWnakFjcAP"
+                  src="/videos/performance/3.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -192,7 +192,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1S4nldpF7bAFBiy8x3V2nILtmWyuRRykm"
+                  src="/videos/performance/4.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -201,7 +201,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1D_wn9xe-dwzMGXiTLjvDO-hO6aOwqtAg"
+                  src="/videos/performance/5.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -247,7 +247,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1P723czlQaBV-HAHJA_svCQNPZaOgbZf6"
+                  src="/videos/branding/1.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -257,7 +257,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1r_1xVqZ5kimI8Z_2BpqTvz-_w1UBFQ9F"
+                  src="/videos/branding/2.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -267,7 +267,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1muH_9A4i6RBf1JKN-CEzRCD8pp5klGRk"
+                  src="/videos/branding/3.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -276,7 +276,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1cnTacy9s-NeiEtFhtX-q0KPzioZhqyJJ"
+                  src="/videos/branding/4.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>
@@ -285,7 +285,7 @@ export default function MesiFilms() {
               <div className="w-full max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl aspect-[9/16] mx-auto max-h-[700px]">
                 <video
                   controls
-                  src="https://drive.google.com/uc?export=download&id=1uHdLWoULK1nk-3HfWQWU8tB-BT8MIz2q"
+                  src="/videos/branding/5.mp4"
                   className="w-full h-full object-contain rounded-lg"
                 />
               </div>

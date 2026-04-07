@@ -116,7 +116,7 @@ export default function MesiFilms() {
           <video
             id="testvideo"
             playsInline
-            src="https://firebasestorage.googleapis.com/v0/b/shekinah-locadora.firebasestorage.app/o/mesi_films%2FTeaser-Mesi-Films.mp4?alt=media&token=fe9c9a40-39cd-423c-ad0d-db91c84b5938"
+            src="/videos/teaser.mp4"
             autoPlay
             controls
             className="w-full h-full object-cover bg-gray-300"

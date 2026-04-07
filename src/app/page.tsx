@@ -128,7 +128,7 @@ export default function MesiFilms() {
 
       {/* CTA Button */}
       <section className="container mx-auto px-4 py-8 flex justify-center">
-        <Link target="_blank" href="https://api.whatsapp.com/send?phone=5561981923272&text=Olá, venho através do site Mesi Films e gostaria de solicitar um orçamento." className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors">
+        <Link target="_blank" href="https://wa.me/message/5FI7JFSX3UZTM1" className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors">
           SOLICITE SEU ORÇAMENTO
           <Image
             src="/PLAY PRETO.png"
@@ -447,7 +447,7 @@ export default function MesiFilms() {
 
       {/* CTA Button */}
       <section className="container mx-auto px-4 py-8 flex justify-center">
-        <Link target="_blank" href="https://api.whatsapp.com/send?phone=5561981923272&text=Olá, venho através do site Mesi Films e gostaria de solicitar um orçamento." className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors">
+        <Link target="_blank" href="https://wa.me/message/5FI7JFSX3UZTM1" className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors">
 
           SOLICITE SEU ORÇAMENTO
           <Image
@@ -612,7 +612,7 @@ export default function MesiFilms() {
             <br />O SEU PROJETO?
           </h2>
 
-          <Link target="_blank" href="https://api.whatsapp.com/send?phone=5561981923272&text=Olá, venho através do site Mesi Films e gostaria de solicitar um orçamento." className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors self-center">
+          <Link target="_blank" href="https://wa.me/message/5FI7JFSX3UZTM1" className=" bg-yellow-400 text-black font-sora-bold cursor-pointer py-2 px-4 rounded-full flex items-center gap-2 hover:bg-yellow-300 transition-colors self-center">
             FALE COM A GENTE
             <Image
               src="/PLAY PRETO.png"
@@ -661,8 +661,7 @@ export default function MesiFilms() {
 
           <div className="text-center text-xs text-gray-500">
             <p>
-              ENDEREÇO: RUA SEM NOME, 000 - CIDADE/ESTADO | CNPJ:
-              00.000.000/0001-00 | TODOS OS DIREITOS RESERVADOS
+              Brasília - DF | CNPJ: 49.749.924/0001-84 | TODOS OS DIREITOS RESERVADOS
             </p>
           </div>
         </div>
